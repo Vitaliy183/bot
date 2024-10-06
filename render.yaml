@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: telegram-bot
+    env: python
+    buildCommand: ""
+    startCommand: "bash start.sh"
+    envVars:
+      - key: TG_TOKEN
+        value: 7852759112:AAFGe1wo319bS745kBti5Qy0wi5Pex8LpR8
+      
