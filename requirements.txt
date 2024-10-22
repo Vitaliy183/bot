@@ -4,4 +4,5 @@ aiohttp==3.9.5
 aiosmtplib==3.0.2
 aiosqlite==0.20.0
 SQLAlchemy==2.0.32
-asyncpg
+asyncpg==0.29.0
+
